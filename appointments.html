@@ -39,7 +39,7 @@
         <hr />
         <ul class="nav nav-pills flex-column mb-auto">
           <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">
+            <a href="#" class="nav-link link-dark" aria-current="page">
               <svg class="bi me-2" width="16" height="16">
                 <use xlink:href="#home"></use>
               </svg>
@@ -47,7 +47,10 @@
             </a>
           </li>
           <li>
-            <a href="consultation_client.html" class="nav-link link-dark">
+            <a
+              href="consultation_client.html"
+              class="nav-link link-dark"
+            >
               <svg class="bi me-2" width="16" height="16">
                 <use xlink:href="#speedometer2"></use>
               </svg>
@@ -55,7 +58,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link link-dark">
+            <a href="#" class="nav-link link-dark active">
               <svg class="bi me-2" width="16" height="16">
                 <use xlink:href="#table"></use>
               </svg>
@@ -63,7 +66,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="nav-link link-dark">
+            <a href="admin.html" class="nav-link link-dark">
               <svg class="bi me-2" width="16" height="16">
                 <use xlink:href="#grid"></use>
               </svg>
@@ -112,6 +115,52 @@
             <a href="add_pet.html" class="btn btn-primary">Add Pet</a>
           </div>
         </header>
+        <div class="container">
+          <div class="row mt-3">
+            <div class="col-12">
+              <input class="form-control" placeholder="Search for a doctor" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Vet Type</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark Otto</td>
+                    <td>123 Las Vegas, US</td>
+                    <td>Dogs and Cats</td>
+                    <td><a href="book_doctor.html" class="btn btn-primary">View</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob Thornton</td>
+                    <td>856 LA, Cal</td>
+                    <td>Pig, Cow, Goat</td>
+                    <td><a href="book_doctor.html" class="btn btn-primary">View</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry the Bird</td>
+                    <td>654 UV, Mel</td>
+                    <td>Horse, Donkey, Parrot</td>
+                    <td><a href="book_doctor.html" class="btn btn-primary">View</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
 
