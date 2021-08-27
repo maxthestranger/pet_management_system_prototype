@@ -34,35 +34,28 @@
           <svg class="bi me-2" width="40" height="32">
             <use xlink:href="#bootstrap"></use>
           </svg>
-          <span class="fs-4">Client Home</span>
+          <span class="fs-4">System Admin</span>
         </a>
         <hr />
         <ul class="nav nav-pills flex-column mb-auto">
           <li class="nav-item">
-            <a href="home_client.html" class="nav-link link-dark" aria-current="page">
+            <a
+              href="home_sys.html"
+              class="nav-link link-dark"
+              aria-current="page"
+            >
               <svg class="bi me-2" width="16" height="16">
                 <use xlink:href="#home"></use>
               </svg>
-              Dashboard
+              Pennding Doctors
             </a>
           </li>
           <li>
-            <a
-              href="consultation_client.html"
-              class="nav-link link-dark"
-            >
+            <a href="pending_pet.html" class="nav-link  active">
               <svg class="bi me-2" width="16" height="16">
-                <use xlink:href="#speedometer2"></use>
+                <use xlink:href="#grid"></use>
               </svg>
-              Consultations
-            </a>
-          </li>
-          <li>
-            <a href="appointments.html" class="nav-link link-dark active">
-              <svg class="bi me-2" width="16" height="16">
-                <use xlink:href="#table"></use>
-              </svg>
-              Appointments
+              Pending Pet Owmers
             </a>
           </li>
         </ul>
@@ -94,59 +87,55 @@
             class="dropdown-menu text-small shadow"
             aria-labelledby="dropdownUser2"
           >
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="profile_client.html">Profile</a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
+            <li><a class="dropdown-item" href="login_sys.html">Sign out</a></li>
           </ul>
         </div>
       </div>
       <main>
-        <header class="container-xl">
-          <div class="d-flex justify-content-end">
-            <a href="add_pet.html" class="btn btn-primary">Add Pet</a>
+        <header class="container-xl my-5">
+          <div class="d-flex justify-content-start">
+              <p>Pending Users</p>
           </div>
         </header>
-        <div class="container">
-
-          <div class="row">
-            <div class="col-md-12">
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Location</th>
-                    <th scope="col">Vet Type</th>
-                    <th scope="col">Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark Otto</td>
-                    <td>123 Las Vegas, US</td>
-                    <td>Dogs and Cats</td>
-                    <td><a href="book_doctor.html" class="btn btn-primary">View</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob Thornton</td>
-                    <td>856 LA, Cal</td>
-                    <td>Pig, Cow, Goat</td>
-                    <td><a href="book_doctor.html" class="btn btn-primary">View</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Larry the Bird</td>
-                    <td>654 UV, Mel</td>
-                    <td>Horse, Donkey, Parrot</td>
-                    <td><a href="book_doctor.html" class="btn btn-primary">View</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-12">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Vet Type</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark Otto</td>
+                        <td>123 Las Vegas, US</td>
+                        <td>Dog</td>
+                        <td><a href="book_doctor.html" class="btn btn-primary">View</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob Thornton</td>
+                        <td>856 LA, Cal</td>
+                        <td>Pig</td>
+                        <td><a href="book_doctor.html" class="btn btn-primary">View</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry the Bird</td>
+                        <td>654 UV, Mel</td>
+                        <td>Horset</td>
+                        <td><a href="book_doctor.html" class="btn btn-primary">View</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
         </div>
       </main>
     </div>
