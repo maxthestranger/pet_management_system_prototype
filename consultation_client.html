@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="d-flex flex-column flex-shrink-0 p-3 bg-light header">
+        <a
+          href="/"
+          class="
+            d-flex
+            align-items-center
+            mb-3 mb-md-0
+            me-md-auto
+            link-dark
+            text-decoration-none
+          "
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Client Home</span>
+        </a>
+        <hr />
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a href="home_client.html" class="nav-link link-dark" aria-current="page">
+              <svg class="bi me-2" width="16" height="16">
+                <use xlink:href="#home"></use>
+              </svg>
+              Dashboard
+            </a>
+          </li>
+          <li>
+            <a
+              href="consultation_client.html"
+              class="nav-link link-dark active"
+            >
+              <svg class="bi me-2" width="16" height="16">
+                <use xlink:href="#speedometer2"></use>
+              </svg>
+              Consultations
+            </a>
+          </li>
+          <li>
+            <a href="appointments.html" class="nav-link link-dark">
+              <svg class="bi me-2" width="16" height="16">
+                <use xlink:href="#table"></use>
+              </svg>
+              Appointments
+            </a>
+          </li>
+        </ul>
+        <hr />
+        <div class="dropdown">
+          <a
+            href="#"
+            class="
+              d-flex
+              align-items-center
+              link-dark
+              text-decoration-none
+              dropdown-toggle
+            "
+            id="dropdownUser2"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://github.com/mdo.png"
+              alt=""
+              width="32"
+              height="32"
+              class="rounded-circle me-2"
+            />
+            <strong>mdo</strong>
+          </a>
+          <ul
+            class="dropdown-menu text-small shadow"
+            aria-labelledby="dropdownUser2"
+          >
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="profile_client.html">Profile</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+      <main>
+        <header class="container-xl">
+          <div class="d-flex justify-content-end">
+            <a href="add_pet.html" class="btn btn-primary">Add Pet</a>
+          </div>
+        </header>
+        <div class="container">
+          <div class="row mt-3">
+            <div class="col-12">
+              <input class="form-control" placeholder="Search for a doctor" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Vet Type</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark Otto</td>
+                    <td>123 Las Vegas, US</td>
+                    <td>Dogs and Cats</td>
+                    <td><a href="book_doctor.html" class="btn btn-primary">Consult</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob Thornton</td>
+                    <td>856 LA, Cal</td>
+                    <td>Pig, Cow, Goat</td>
+                    <td><a href="book_doctor.html" class="btn btn-primary">Consult</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry the Bird</td>
+                    <td>654 UV, Mel</td>
+                    <td>Horse, Donkey, Parrot</td>
+                    <td><a href="book_doctor.html" class="btn btn-primary">Consult</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
