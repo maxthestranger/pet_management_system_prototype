@@ -40,11 +40,7 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link
-      href="assets/css/style.bundle.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->
   </head>
   <!--end::Head-->
@@ -530,11 +526,10 @@
                         name="business_type"
                         class="form-select form-select-lg form-select-solid"
                         data-control="select2"
-                        data-placeholder="Select..."
                         data-allow-clear="true"
                         data-hide-search="true"
                       >
-                        <option></option>
+                        <option value="animal">Animal</option>
                         <option value="1">Dogs</option>
                         <option value="1">Cats</option>
                         <option value="2">Pigs</option>
@@ -557,7 +552,9 @@
                         name="business_description"
                         class="form-control form-control-lg form-control-solid"
                         rows="3"
-                      ></textarea>
+                      >
+Some simple description</textarea
+                      >
                       <!--end::Input-->
                     </div>
                     <!--end::Input group-->
@@ -695,9 +692,8 @@
                               class="form-select form-select-solid"
                               data-control="select2"
                               data-hide-search="true"
-                              data-placeholder="Month"
                             >
-                              <option></option>
+                              <option value="month">Month</option>
                               <option value="1">1</option>
                               <option value="2">2</option>
                               <option value="3">3</option>
@@ -720,9 +716,8 @@
                               class="form-select form-select-solid"
                               data-control="select2"
                               data-hide-search="true"
-                              data-placeholder="Year"
                             >
-                              <option></option>
+                              <option value="year">Year</option>
                               <option value="2021">2021</option>
                               <option value="2022">2022</option>
                               <option value="2023">2023</option>
@@ -772,6 +767,7 @@
                             maxlength="4"
                             placeholder="CVV"
                             name="card_cvv"
+                            value="056"
                           />
                           <!--end::Input-->
                           <!--begin::CVV icon-->
