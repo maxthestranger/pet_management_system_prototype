@@ -40,11 +40,7 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link
-      href="assets/css/style.bundle.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->
   </head>
   <!--end::Head-->
@@ -94,7 +90,7 @@
             >
               <!--begin::Logo-->
               <a
-                href="index.html"
+                href="/index.html"
                 class="mb-10 mb-lg-20 text-white"
                 style="font-weight: bold; font-size: 30px"
               >
@@ -216,11 +212,7 @@
             <!--begin::Wrapper-->
             <div class="w-lg-700px p-10 p-lg-15 mx-auto">
               <!--begin::Form-->
-              <form
-                class="my-auto pb-5"
-                novalidate="novalidate"
-                id="kt_create_account_form"
-              >
+              <form class="my-auto pb-5" novalidate="novalidate">
                 <!--begin::Step 1-->
                 <div class="current" data-kt-stepper-element="content">
                   <!--begin::Wrapper-->
@@ -529,13 +521,8 @@
                       <select
                         name="business_type"
                         class="form-select form-select-lg form-select-solid"
-                        data-control="select2"
-                        data-placeholder="Select..."
-                        data-allow-clear="true"
-                        data-hide-search="true"
                       >
-                        <option></option>
-                        <option value="1">Dogs</option>
+                        <option value="1" selected>Dogs</option>
                         <option value="1">Cats</option>
                         <option value="2">Pigs</option>
                         <option value="3">Turtles</option>
@@ -557,7 +544,9 @@
                         name="business_description"
                         class="form-control form-control-lg form-control-solid"
                         rows="3"
-                      ></textarea>
+                      >
+Some simple description</textarea
+                      >
                       <!--end::Input-->
                     </div>
                     <!--end::Input group-->
@@ -695,10 +684,8 @@
                               class="form-select form-select-solid"
                               data-control="select2"
                               data-hide-search="true"
-                              data-placeholder="Month"
                             >
-                              <option></option>
-                              <option value="1">1</option>
+                              <option value="1" selected>1</option>
                               <option value="2">2</option>
                               <option value="3">3</option>
                               <option value="4">4</option>
@@ -720,10 +707,8 @@
                               class="form-select form-select-solid"
                               data-control="select2"
                               data-hide-search="true"
-                              data-placeholder="Year"
                             >
-                              <option></option>
-                              <option value="2021">2021</option>
+                              <option value="2021" selected>2021</option>
                               <option value="2022">2022</option>
                               <option value="2023">2023</option>
                               <option value="2024">2024</option>
@@ -772,6 +757,7 @@
                             maxlength="4"
                             placeholder="CVV"
                             name="card_cvv"
+                            value="056"
                           />
                           <!--end::Input-->
                           <!--begin::CVV icon-->
